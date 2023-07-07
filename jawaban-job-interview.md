@@ -4,7 +4,7 @@ Perancangan database diagram traveloka berdasarkan permasalahan dunia nyata meli
 ![Untitled (2)](https://github.com/wikinurrohman/Prak-Basis-Data/assets/95328207/ff5fcb9f-5034-43fa-aeb4-5ee5985cba51)
 
 # Nomor 2
-# DDL (Data Definition Language)
+## DDL (Data Definition Language)
 Pembuatan tabel berdasarkan diagram pada nomor 1 dengan mengekspor DBML pada dbdiagram menjadi DDL MySQL
 ```SQL
 CREATE TABLE `Pengguna` (
@@ -209,4 +209,8 @@ ALTER TABLE `Review` ADD FOREIGN KEY (`id_penerbangan_fk`) REFERENCES `Penerbang
 | 74  | Pemesanan Penerbangan dengan Layanan Tambahan   |
 | 75  | Manajemen Hak Akses Pengguna                   |
 
+# Nomor 4
 
+
+
+# Nomor 5
